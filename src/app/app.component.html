@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a class="navbar-brand" href="#">Digevo</a>
+<a class="navbar-brand" href="#">Documentos</a>
+<a class="navbar-brand" href="#">Add</a>
+<a class="navbar-brand" href="https://jesusseiler.site/">Curriculo</a>
+
+</nav>
+
+<img class="digevo" src="../assets/img/digevo.png">
+
+
+<div class = "container mt-5">
+
+  <form>
+    <div class="form-group">
+      <label class="labels" for="exampleInputEmail1">Title</label>
+      <small id="emailHelp" class="form-text ms-3 labels">Ingresa el titulo del documento</small>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Documento 1">
+      
+    </div>
+    <div class="form-group">
+      <label class ="labels mt-2" for="exampleInputPassword1">Descripcion</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mi primer documento">
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+  </form>
+</div>
+<!----------------------LISTANDO LOS DOCUMENTOS---------- -->
+<div class="container mt-4">
+<div class="row">
+<div class="col-md-8">
+  <ul class="list-group">
+    <li 
+    *ngFor="let documentos of documentosArray"
+    class="list-group-item list-group-item-action">
+{{documentos.nombre}}
+{{documentos.descripcion}}
+    </li>
+  </ul>
+</div>
+</div>
+
+</div>
+
+
+<!----------------------LISTANDO LOS DOCUMENTOS---------- -->
