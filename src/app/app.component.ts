@@ -7,11 +7,11 @@ import { Documentos } from './models/documentos';
 })
 export class AppComponent {
   documentosArray : Documentos[]=[
-    {id: 1, nombre: "Don quijote", descripcion: "libro muy bueno",
+    {id:1, nombre: "Don quijote", descripcion: "libro muy bueno",
     status: "Disponible"},
-    {id: 2, nombre: "Don quijote2", descripcion: "libro muy bueno",
+    {id:2, nombre: "Don quijote2", descripcion: "libro muy bueno",
     status: "Disponible"},
-    {id: 3, nombre: "Don quijote3", descripcion: "libro muy bueno",
+    {id:3, nombre: "Don quijote3", descripcion: "libro muy bueno",
     status: "No disponible"},
   ];
 

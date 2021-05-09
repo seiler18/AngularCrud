@@ -11,7 +11,24 @@ body{
     margin-right: auto;
     display: block;
 }
+.digevoIcono{
+    margin-left: 10px;
+    width: 100px; height: 60px;
+}
 
 .labels {
     font-weight: bold;
 }
+
+
+.colorBadge {
+    background: #b92b27; 
+}
+
+.header-section{
+    font-size: xx-large;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color:black;
+    text-shadow: 0.1em 0.15em 0.15em #000000;
+}
+
