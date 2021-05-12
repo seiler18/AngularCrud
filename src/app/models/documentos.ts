@@ -1,5 +1,5 @@
 export class Documentos {
-    id: number;
+    id: number = 0;
     nombre: string;
     descripcion: string;
     status: string;
