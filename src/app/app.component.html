@@ -22,6 +22,11 @@
             <a class="nav-link Nav text-light" href="#Add" id="Add">Añadir documentos</a>
           </div>
 
+          <div class="nav-item">
+            <a class="nav-link Nav  text-light" href="https://seiler18.github.io/Curriculo/" id="Listar">Volver al curriculo</a>
+
+          </div>
+
           
         </ul>
 
@@ -49,7 +54,7 @@
       <input type="text" class="form-control" [(ngModel)] ="selectedDocumentos.descripcion" name="descripcion" id="exampleInputPassword1" placeholder="Ingresa breve descripción">
     </div>
 
-    <button (click)="addOrEdit()" type="submit" class="btn btn-dark mt-3">Submit</button>
+    <button (click)="addOrEdit()" type="submit" class="btn btn-dark mt-3">Agregar o editar</button>
     &nbsp;&nbsp;
     <button *ngIf="selectedDocumentos.id !==0" (click)="delete()" class="btn btn-dark mt-3">Delete</button>
   
